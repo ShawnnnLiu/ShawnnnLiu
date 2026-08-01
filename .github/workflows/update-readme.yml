@@ -1,0 +1,47 @@
+name: Refresh live README blocks
+
+# Rebuilds the NEWS / CAT / SPOTIFY regions of README.md from their upstreams.
+# The script is idempotent, so a run that finds nothing new produces no commit.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6h, off the hour to dodge scheduler congestion
+  workflow_dispatch:          # "Run workflow" button, for when you want it now
+  push:
+    branches: [main]
+    paths:
+      - "scripts/update_readme.py"
+      - ".github/workflows/update-readme.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No pip install: the updater is stdlib-only on purpose.
+      - name: Rebuild live blocks
+        run: python3 scripts/update_readme.py
+
+      - name: Commit if anything changed
+        run: |
+          if [[ -z "$(git status --porcelain README.md)" ]]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(readme): refresh live blocks"
+          git push

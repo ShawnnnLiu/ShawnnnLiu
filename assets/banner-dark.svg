@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="Shawn Liu - Applied AI engineer and published ML researcher. Reliable AI that ships.">
+  <rect width="1280" height="340" fill="#14130d"/>
+  <rect x="0.5" y="0.5" width="1279" height="339" fill="none" stroke="#36331f" stroke-width="1"/>
+
+  <!-- structured dot field (FHRR-style grid coherence) -->
+  <g>
+    <circle cx="916" cy="88" r="5.18" fill="#6b7bff" opacity="0.445"/>
+    <circle cx="952" cy="88" r="6.22" fill="#efe9da" opacity="0.559"/>
+    <circle cx="988" cy="88" r="6.55" fill="#efe9da" opacity="0.594"/>
+    <circle cx="1024" cy="88" r="6.04" fill="#efe9da" opacity="0.539"/>
+    <circle cx="1060" cy="88" r="4.88" fill="#6b7bff" opacity="0.413"/>
+    <circle cx="1096" cy="88" r="3.51" fill="#efe9da" opacity="0.264"/>
+    <circle cx="1132" cy="88" r="2.43" fill="#efe9da" opacity="0.147"/>
+    <circle cx="1168" cy="88" r="2.05" fill="#efe9da" opacity="0.105"/>
+    <circle cx="1204" cy="88" r="2.50" fill="#efe9da" opacity="0.155"/>
+    <circle cx="916" cy="124" r="5.07" fill="#efe9da" opacity="0.434"/>
+    <circle cx="952" cy="124" r="5.98" fill="#efe9da" opacity="0.533"/>
+    <circle cx="988" cy="124" r="6.27" fill="#efe9da" opacity="0.564"/>
+    <circle cx="1024" cy="124" r="5.82" fill="#6b7bff" opacity="0.515"/>
+    <circle cx="1060" cy="124" r="4.81" fill="#efe9da" opacity="0.405"/>
+    <circle cx="1096" cy="124" r="3.61" fill="#efe9da" opacity="0.275"/>
+    <circle cx="1132" cy="124" r="2.66" fill="#efe9da" opacity="0.172"/>
+    <circle cx="1168" cy="124" r="2.33" fill="#efe9da" opacity="0.136"/>
+    <circle cx="1204" cy="124" r="2.73" fill="#efe9da" opacity="0.179"/>
+    <circle cx="916" cy="160" r="4.56" fill="#efe9da" opacity="0.378"/>
+    <circle cx="952" cy="160" r="4.86" fill="#efe9da" opacity="0.411"/>
+    <circle cx="988" cy="160" r="4.96" fill="#6b7bff" opacity="0.422"/>
+    <circle cx="1024" cy="160" r="4.81" fill="#efe9da" opacity="0.405"/>
+    <circle cx="1060" cy="160" r="4.47" fill="#efe9da" opacity="0.369"/>
+    <circle cx="1096" cy="160" r="4.07" fill="#efe9da" opacity="0.325"/>
+    <circle cx="1132" cy="160" r="3.75" fill="#efe9da" opacity="0.291"/>
+    <circle cx="1168" cy="160" r="3.64" fill="#efe9da" opacity="0.278"/>
+    <circle cx="1204" cy="160" r="3.77" fill="#efe9da" opacity="0.293"/>
+    <circle cx="916" cy="196" r="3.91" fill="#efe9da" opacity="0.308"/>
+    <circle cx="952" cy="196" r="3.45" fill="#efe9da" opacity="0.257"/>
+    <circle cx="988" cy="196" r="3.30" fill="#efe9da" opacity="0.242"/>
+    <circle cx="1024" cy="196" r="3.53" fill="#efe9da" opacity="0.266"/>
+    <circle cx="1060" cy="196" r="4.04" fill="#efe9da" opacity="0.322"/>
+    <circle cx="1096" cy="196" r="4.65" fill="#6b7bff" opacity="0.388"/>
+    <circle cx="1132" cy="196" r="5.13" fill="#efe9da" opacity="0.440"/>
+    <circle cx="1168" cy="196" r="5.30" fill="#efe9da" opacity="0.459"/>
+    <circle cx="1204" cy="196" r="5.10" fill="#efe9da" opacity="0.437"/>
+    <circle cx="916" cy="232" r="3.47" fill="#efe9da" opacity="0.260"/>
+    <circle cx="952" cy="232" r="2.48" fill="#efe9da" opacity="0.152"/>
+    <circle cx="988" cy="232" r="2.17" fill="#efe9da" opacity="0.119"/>
+    <circle cx="1024" cy="232" r="2.65" fill="#efe9da" opacity="0.171"/>
+    <circle cx="1060" cy="232" r="3.75" fill="#efe9da" opacity="0.290"/>
+    <circle cx="1096" cy="232" r="5.05" fill="#efe9da" opacity="0.431"/>
+    <circle cx="1132" cy="232" r="6.07" fill="#efe9da" opacity="0.542"/>
+    <circle cx="1168" cy="232" r="6.43" fill="#efe9da" opacity="0.582"/>
+    <circle cx="1204" cy="232" r="6.00" fill="#6b7bff" opacity="0.535"/>
+    <circle cx="916" cy="268" r="3.46" fill="#efe9da" opacity="0.259"/>
+    <circle cx="952" cy="268" r="2.46" fill="#efe9da" opacity="0.151"/>
+    <circle cx="988" cy="268" r="2.15" fill="#efe9da" opacity="0.116"/>
+    <circle cx="1024" cy="268" r="2.64" fill="#efe9da" opacity="0.169"/>
+    <circle cx="1060" cy="268" r="3.74" fill="#efe9da" opacity="0.289"/>
+    <circle cx="1096" cy="268" r="5.06" fill="#efe9da" opacity="0.432"/>
+    <circle cx="1132" cy="268" r="6.09" fill="#efe9da" opacity="0.544"/>
+    <circle cx="1168" cy="268" r="6.45" fill="#6b7bff" opacity="0.584"/>
+    <circle cx="1204" cy="268" r="6.02" fill="#efe9da" opacity="0.537"/>
+  </g>
+
+  <!-- accent rule -->
+  <rect x="72" y="56" width="46" height="3" fill="#6b7bff"/>
+
+  <!-- eyebrow -->
+  <text x="72" y="88" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="2.6"
+        fill="#8a8371">APPLIED AI ENGINEER  ×  PUBLISHED ML RESEARCHER</text>
+
+  <!-- headline -->
+  <text x="72" y="168" font-family="'Space Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="72" font-weight="700"
+        letter-spacing="-2.2" fill="#efe9da">Reliable AI</text>
+  <text x="72" y="242" font-family="'Space Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="72" font-weight="700"
+        letter-spacing="-2.2" fill="#a8a18d">that <tspan fill="#6b7bff">ships</tspan><tspan fill="#ff6b4f">.</tspan></text>
+  <rect x="234" y="252" width="176" height="4" fill="#6b7bff" opacity="0.28"/>
+
+  <!-- footer rule + credentials -->
+  <rect x="72" y="286" width="1136" height="1" fill="#36331f"/>
+  <text x="72" y="314" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" letter-spacing="0.9"
+        fill="#8a8371">UC IRVINE '26 <tspan fill="#6b7bff">&#8594;</tspan> COLUMBIA MSCS   ·   WACV · NeurIPS · ISLPED · FRONTIERS IN AI   ·   LOOP-STUDY.COM</text>
+</svg>

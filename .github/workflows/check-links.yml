@@ -1,0 +1,28 @@
+name: Check README links
+
+# A README with dead links is a README that lies. This gate is the reason
+# the profile can make claims like "every link here resolves" and mean it.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "42 6 * * 1"    # Mondays: catch links that rot on their own
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve every link in README.md
+        run: python3 scripts/check_links.py
