@@ -78,9 +78,6 @@ Grateful to research with **Prof. Mohsen Imani** (BiasLab @ UCI) and **Dr. Haleh
 | 🧬 **[Antimicrobial Peptides](https://github.com/ShawnnnLiu/Peptide-Anti-microbial-Properties-Prediction)** | Fuses biochemical descriptors with structure-aware features from ESMFold conformations across SVM / MLP / GNN. |
 | 🛒 **[AdamsFoods Wholesale](https://adamsfoodswholesale.com/)** <br> <sub>● live, solo build</sub> | React + Node/Express wholesale platform, signed-URL S3 media, JWT auth with role-guarded admin routes. |
 | 🐾 **Feeding Pets of the Homeless** <br> <sub>CTC @ UCI</sub> | Donation-management platform for a national nonprofit, role-based across regional chapters. |
-
-Also kicking around: **[Astrolabe](https://github.com/ShawnnnLiu/Astrolabe)** (LLM course-selection for Columbia, built by someone about to need it), **[Robust-NeRF](https://github.com/ShawnnnLiu/Robust-NeRF)**, and a [search engine over UCI](https://github.com/ShawnnnLiu/UCI-DIR-Search-Engine) with tf-idf scoring and an inverted index.
-
 ---
 
 ## Recent
