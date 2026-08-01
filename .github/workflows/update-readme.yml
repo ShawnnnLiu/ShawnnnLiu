@@ -1,6 +1,6 @@
 name: Refresh live README blocks
 
-# Rebuilds the NEWS / CAT / SPOTIFY regions of README.md from their upstreams.
+# Rebuilds the NEWS region of README.md from the portfolio timeline.
 # The script is idempotent, so a run that finds nothing new produces no commit.
 
 on:
@@ -31,7 +31,7 @@ jobs:
           python-version: "3.12"
 
       # No pip install: the updater is stdlib-only on purpose.
-      - name: Rebuild live blocks
+      - name: Rebuild live block
         run: python3 scripts/update_readme.py
 
       - name: Commit if anything changed
