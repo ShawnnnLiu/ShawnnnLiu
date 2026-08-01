@@ -24,7 +24,7 @@
 
 | If you're a… | Start here | Why |
 | :-- | :-- | :-- |
-| **Recruiter / hiring manager** | [Shipped](#shipped) | What I've built, and the honest state of each. |
+| **Recruiter / hiring manager** | [Shipped](#shipped) | What I've built, and what each one actually does. |
 | **Researcher** | [Research](#research) | Six papers, honest status labels. |
 | **Engineer** | [Loop](#loop) | Why an LLM app has 5,135 tests. |
 
@@ -70,14 +70,14 @@ Grateful to research with **Prof. Mohsen Imani** (BiasLab @ UCI) and **Dr. Haleh
 
 ## Shipped
 
-| | What it is | |
-| :-- | :-- | :-- |
-| 🛬 **Safe UAV Landing** <br> <sub>U.S. Navy collaboration</sub> | Pose estimation + symbolic reasoning replacing brittle fixed-pattern optical markers for autonomous carrier landing in bad weather. | A reasoning module that **holds the landing** whenever crew or obstacles are on the deck. CUI dataset, visuals restricted. |
-| 🚗 **[Crash Anticipation](https://github.com/ShawnnnLiu/Crash-Anticipation)** <br> <sub>v0.3.0</sub> | Online crash-risk prediction from one dashcam. A neural model decides *whether* it's dangerous; a symbolic layer decides *what the threat is* and can always explain itself. | **3.05 s** mean warning at **408 fps**, from a distilled 2.95M-param student that beats its 21.88M teacher on lead time. And it's still image-space geometry, not spatial understanding, and [I say so out loud](https://shawnnnliu.github.io/#projects). |
-| 🫀 **[Arrhythmia, Honestly Evaluated](https://github.com/ShawnnnLiu/Arrythmia_Classifier)** | Shows how beat-wise splits leak patient identity and inflate ECG accuracy, then searches for an optimal patient-wise split. | **98.4% → 89.7%.** The gap *is* the paper. |
-| 🧬 **[Antimicrobial Peptides](https://github.com/ShawnnnLiu/Peptide-Anti-microbial-Properties-Prediction)** | Fuses biochemical descriptors with structure-aware features from ESMFold conformations across SVM / MLP / GNN. | Ongoing: isolating what 3D conformation actually contributes. |
-| 🛒 **[AdamsFoods Wholesale](https://adamsfoodswholesale.com/)** <br> <sub>● live, solo build</sub> | React + Node/Express wholesale platform, signed-URL S3 media, JWT auth with role-guarded admin routes. | Real customers, today. |
-| 🐾 **Feeding Pets of the Homeless** <br> <sub>CTC @ UCI</sub> | Donation-management platform for a national nonprofit, role-based across regional chapters. | Built and maintained free of charge. |
+| | What it is |
+| :-- | :-- |
+| 🛬 **Safe UAV Landing** <br> <sub>U.S. Navy collaboration</sub> | Pose estimation + symbolic reasoning replacing brittle fixed-pattern optical markers for autonomous carrier landing in bad weather. |
+| 🚗 **[Crash Anticipation](https://github.com/ShawnnnLiu/Crash-Anticipation)** <br> <sub>v0.3.0</sub> | Online crash-risk prediction from one dashcam. A neural model decides *whether* it's dangerous; a symbolic layer decides *what the threat is* and can always explain itself. |
+| 🫀 **[Arrhythmia, Honestly Evaluated](https://github.com/ShawnnnLiu/Arrythmia_Classifier)** | Shows how beat-wise splits leak patient identity and inflate ECG accuracy, then searches for an optimal patient-wise split. |
+| 🧬 **[Antimicrobial Peptides](https://github.com/ShawnnnLiu/Peptide-Anti-microbial-Properties-Prediction)** | Fuses biochemical descriptors with structure-aware features from ESMFold conformations across SVM / MLP / GNN. |
+| 🛒 **[AdamsFoods Wholesale](https://adamsfoodswholesale.com/)** <br> <sub>● live, solo build</sub> | React + Node/Express wholesale platform, signed-URL S3 media, JWT auth with role-guarded admin routes. |
+| 🐾 **Feeding Pets of the Homeless** <br> <sub>CTC @ UCI</sub> | Donation-management platform for a national nonprofit, role-based across regional chapters. |
 
 Also kicking around: **[Astrolabe](https://github.com/ShawnnnLiu/Astrolabe)** (LLM course-selection for Columbia, built by someone about to need it), **[Robust-NeRF](https://github.com/ShawnnnLiu/Robust-NeRF)**, and a [search engine over UCI](https://github.com/ShawnnnLiu/UCI-DIR-Search-Engine) with tf-idf scoring and an inverted index.
 
